@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gridComponent {
+    display: grid;
+    text-align: center;
+    padding: 15px;
+    border: 5px blue double;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#question1 {
+    background-color: cyan;
+}
+
+#question2 {
+    background-color: yellow;
+}
+
+#question3 {
+    background-color: forestgreen;
+}
+
+#question4 {
+    background-color: rebeccapurple;
+}
